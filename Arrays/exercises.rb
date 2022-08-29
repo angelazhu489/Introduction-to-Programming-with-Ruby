@@ -113,7 +113,7 @@ TypeError: no implicit conversion of String into Integer
 # your creation that prints each index and value of the array.
 
 arr = ["angela", "megan", "cindy"]
-arr.each_with_index { |k, v| puts "Key is: #{k}, Value is: #{v}"}
+arr.each_with_index { |i, v| puts "Index is: #{i}, Value is: #{v}"}
 
 # -------------------------------------------------------------
 
